@@ -10,7 +10,7 @@ class bbbmon::config {
     $warning = $::bbbmon::factor_warn * $processorcount
     $critical = $::bbbmon::factor_crit * $processorcount
 
-    $limits = "${warning}, ${warning}, 0, 0:${critical}, ${critical}, 0, 0"
+    $limits = "${warning},${warning},0,0:${critical},${critical},0,0"
   }
 
   file { '/etc/bbb-mon.ini':
