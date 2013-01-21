@@ -1,6 +1,5 @@
 class bbbmon::config {
 
-  $limits = ''
   $host = $::bbbmon::host
   $salt = $::bbbmon::salt
 
